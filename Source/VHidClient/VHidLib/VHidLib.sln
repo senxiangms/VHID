@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VHidLib", "VHidLib.vcxproj", "{A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VHidExe", "..\VHidExe\VHidExe.vcxproj", "{D4790F35-591A-4C1C-A049-3779B1C0CF46}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE} = {A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VHidDll", "..\VHidDll\VHidDll.vcxproj", "{0ED62C8E-A136-434E-9C84-0F87DC89B166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE}.Debug|Win32.Build.0 = Debug|Win32
+		{A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE}.Release|Win32.ActiveCfg = Release|Win32
+		{A9B5FB31-C0A6-4BF0-8CAF-4AA710279FEE}.Release|Win32.Build.0 = Release|Win32
+		{D4790F35-591A-4C1C-A049-3779B1C0CF46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4790F35-591A-4C1C-A049-3779B1C0CF46}.Debug|Win32.Build.0 = Debug|Win32
+		{D4790F35-591A-4C1C-A049-3779B1C0CF46}.Release|Win32.ActiveCfg = Release|Win32
+		{D4790F35-591A-4C1C-A049-3779B1C0CF46}.Release|Win32.Build.0 = Release|Win32
+		{0ED62C8E-A136-434E-9C84-0F87DC89B166}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0ED62C8E-A136-434E-9C84-0F87DC89B166}.Debug|Win32.Build.0 = Debug|Win32
+		{0ED62C8E-A136-434E-9C84-0F87DC89B166}.Release|Win32.ActiveCfg = Release|Win32
+		{0ED62C8E-A136-434E-9C84-0F87DC89B166}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
